@@ -7,14 +7,16 @@
  */
 
 import React, {Component} from 'react';
-import AppContainer from './src/RootStackNavigator'
+import { View, Text } from 'react-native'
+// import AppContainer from './src/RootStackNavigator'
 
 type Props = {};
 
 export default class App extends Component<Props> {
   render() {
     return (
-      <AppContainer />
+      // <AppContainer />
+      <View><Text>RNTutorial</Text></View>
     );
   }
 }
