@@ -4,13 +4,16 @@ import { createStackNavigator } from 'react-navigation-stack'
 import * as Screens from '../screens'
 
 const routeConfigMap = {
+  Home: {
+    screen: Screens.Home
+  },
   FlatListSimple: {
     screen: Screens.FlatListSimple
   }
 }
 
 const stackConfig = {
-  initialRouteName: 'FlatListSimple',
+  initialRouteName: 'Home',
   headerMode: 'screen',
 }
 
