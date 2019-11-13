@@ -67,3 +67,11 @@ react-native link react-native-reanimated
 
 react-native-screens暂时不安装，因为没有使用到这个功能
 
+
+用到导航方式 stack、tab。现在需要单独按照这两个库
+
+```sh
+yarn add react-navigation-stack
+yarn add react-navigation-tabs
+```
+
